@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 20px; 
     background-color: #f5f0ff;
+    animation: fade-in 1.5s ease-in;
 }
 /* main */
 main {
@@ -130,11 +131,6 @@ input[type="submit"] {
     }
 }
 
-/* Apply fade-in effect */
-body {
-    animation: fade-in 1.5s ease-in;
-}
-
 /* Navigation hover effect */
 nav a {
     text-decoration: none;
@@ -159,7 +155,7 @@ textarea:hover,
 input:focus,
 textarea:focus {
     border-color: purple;
-    background-color: light purple;
+    background-color: #f5f0ff;
     outline: none;
 }
 
